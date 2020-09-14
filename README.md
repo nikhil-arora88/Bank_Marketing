@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Motivation: In the current Covid scenario where governments around the world are slashing interest rates to all time lows to support economic growth, banks are rolling up their sleeves to retain deposits on their books. As against corporates which have more volatile liquidity positions, consumer deposits are increasing with decrease in discretionary spending. In the past few months, banks have tried to woo consumers to place deposits with them even at such low interest rates.
 Across geographies, banks are digging into historical data to understand consumer behaviour to focus their marketing dollars on customers which are most likely to respond positively towards marketing campaigns. At a time where banks profitability have been severely hit, such insights are nothing less than gold.
 
@@ -82,3 +83,9 @@ bank-additional-names.txt : Description of data
 
 
 
+=======
+Blog Post: https://medium.com/@niksarster/what-banks-should-do-to-get-more-fixed-deposits-1e99bcda7aa5?source=friends_link&sk=26ab7e6ac0587468ab2ed33956f80c96
+
+In this project, we will study a publicly available data set from UCI’s Machine Learning repository (source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)to understand the factors that can help determine consumers’ probability of positive response to a Fixed Deposit (FD) marketing campaign. The data is from a campaign run by a Portuguese bank on getting new FDs from existing customers. It has various features on each customer along with a decision variable which indicates where he/she decided to place a FD during the campaign (a positive response).
+
+>>>>>>> dc3b748030f97a7b387527791e76ee32e3cb40c4
