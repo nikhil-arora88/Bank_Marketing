@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Motivation: In the current Covid scenario where governments around the world are slashing interest rates to all time lows to support economic growth, banks are rolling up their sleeves to retain deposits on their books. As against corporates which have more volatile liquidity positions, consumer deposits are increasing with decrease in discretionary spending. In the past few months, banks have tried to woo consumers to place deposits with them even at such low interest rates.
 Across geographies, banks are digging into historical data to understand consumer behaviour to focus their marketing dollars on customers which are most likely to respond positively towards marketing campaigns. At a time where banks profitability have been severely hit, such insights are nothing less than gold.
 
@@ -18,17 +18,19 @@ Data understanding: The data has 20 predictor variables and an output variable (
    6 - housing: has housing loan? (categorical: "no","yes","unknown")
    7 - loan: has personal loan? (categorical: "no","yes","unknown")
    
-   # related with the last contact of the current campaign:
+   Related with the last contact of the current campaign:
    8 -	contact: contact communication type (categorical: "cellular","telephone") 
    9 - month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
   10 - day_of_week: last contact day of the week (categorical: "mon","tue","wed","thu","fri")
   11 - duration: last contact duration, in seconds (numeric). Important note:  this attribute highly affects the output target (e.g., if duration=0 then y="no"). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
-   # other attributes:
+   
+  Other attributes:
   12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
   13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
   14 - previous: number of contacts performed before this campaign and for this client (numeric)
   15 - poutcome: outcome of the previous marketing campaign (categorical: "failure","nonexistent","success")
-   # social and economic context attributes
+  
+  Social and economic context attributes
   16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
   17 - cons.price.idx: consumer price index - monthly indicator (numeric)     
   18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)     
@@ -75,17 +77,3 @@ bank-additional-full.csv : Full data set with all features
 bank-additional.csv : Sample data with all features
 Bank_Marketing.ipynb : Analysis notebook
 bank-additional-names.txt : Description of data
-
-
-
-
-
-
-
-
-=======
-Blog Post: https://medium.com/@niksarster/what-banks-should-do-to-get-more-fixed-deposits-1e99bcda7aa5?source=friends_link&sk=26ab7e6ac0587468ab2ed33956f80c96
-
-In this project, we will study a publicly available data set from UCI’s Machine Learning repository (source: https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)to understand the factors that can help determine consumers’ probability of positive response to a Fixed Deposit (FD) marketing campaign. The data is from a campaign run by a Portuguese bank on getting new FDs from existing customers. It has various features on each customer along with a decision variable which indicates where he/she decided to place a FD during the campaign (a positive response).
-
->>>>>>> dc3b748030f97a7b387527791e76ee32e3cb40c4
